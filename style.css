@@ -1,0 +1,99 @@
+body{
+    margin:0;
+    background-color:#25274D;
+    color:#ffffff;
+}
+
+nav{
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul li {
+  float:left;
+}
+
+ul li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color:white;
+}
+
+ul li a:hover {
+  background-color: #464866;
+  border-radius: 50px;
+}
+}
+
+.title{
+  text-align:center;
+}
+
+h1, h2 {
+  padding: 25px;
+}
+
+h3 {
+  margin-left:40px;
+  color:white;
+}
+
+.text-blue {
+  color:#29648A;
+}
+
+.text-gray{
+  color:#AAABB8;
+}
+
+footer h3 {
+  margin:15px;
+}
+/* tic tac toe project */
+.ticTitle {
+  text-align: center;
+}
+
+main {
+  display:flex;
+  align-items:center;
+  justify-items:center;
+  flex-direction:column;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color:#25274D;
+  height:500px;
+  width:500px;
+}
+.container div {
+  border: 1.5px solid white;
+  padding: 10px;
+  text-align: center;
+}
+
+
+#square-1{
+  background-color: #6e889e;
+}
+#square-2 {
+  background-color:#4B5E73;
+}
+
+#reset{
+  border-radius:16px;
+  padding:10px;
+  font-family:Idiqlat;
+  color:white;
+  background-color:#29648A;
+}
+
+
+/*  */
