@@ -1,12 +1,23 @@
-const link = document.createElement('a');
-link.href = "./tictac.html";
-link.textContent = "Tic Tac Toe Project";
-link.style.color = 'white';
-link.style.textDecoration = 'none';
+const tictaclink = document.createElement('a');
+tictaclink.href = "./tictac.html";
+tictaclink.textContent = "Tic Tac Toe Project";
+tictaclink.style.color = 'white';
+tictaclink.style.textDecoration = 'none';
 
 const tictacContainer = document.getElementById("tictac");
 if (tictacContainer) {
-    tictacContainer.appendChild(link);
+    tictacContainer.appendChild(tictaclink);
+}
+
+const movielink = document.createElement('a');
+movielink.href = "./movies.html";
+movielink.textContent = "Styling a Movie Page project";
+movielink.style.color = 'white';
+movielink.style.textDecoration = 'none';
+
+const movieContainer = document.getElementById("movie");
+if (movieContainer) {
+    movieContainer.appendChild(movielink);
 }
 
 let counter = 0;
